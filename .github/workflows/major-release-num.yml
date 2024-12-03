@@ -1,8 +1,6 @@
 name: Move Major Release Tag
 
-on:
-  release:
-    types: [created]
+on: [push]
 
 jobs:
   movetag:
